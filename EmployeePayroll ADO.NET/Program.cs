@@ -7,6 +7,8 @@ namespace EmployeePayroll_ADO.NET
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome TO Employee PayRoll Services Using ADO.NET");
+            EmpPayrollServices empPayrollServices = new EmpPayrollServices();
+            empPayrollServices.DataBaseConnection();
         }
     }
 }
